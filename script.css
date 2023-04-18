@@ -1,0 +1,59 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    background-color: beige;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    position: fixed;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li {
+
+    text-decoration: none;
+
+}
+
+li:hover {
+     background-color: grey;
+
+}
+
+section#portifolio {
+    background-color: blue;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section#servico {
+    background-color: green;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section#contato {
+    background-color: yellow;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
