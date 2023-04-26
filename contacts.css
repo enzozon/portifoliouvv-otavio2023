@@ -1,0 +1,119 @@
+* {
+    background: transparent;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: -50px;
+}
+
+img {
+    width: 500pxqw24wq;
+    height: auto;
+}
+
+body {
+    background: linear-gradient(to bottom, #03051a, #202124);
+    height: 1000px;
+
+}
+
+
+nav ul {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    position: fixed;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li {
+    color: white;
+    text-decoration: none;
+
+}
+
+li.a:hover {
+    background-color: #373737;
+    transform: scale(1.05);
+    border-radius: 10px;
+
+}
+
+.perfil {
+
+    width: 80x;
+    height: 80px;
+
+}
+
+.texto {
+    margin-top: 0px;
+    height: 275px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+
+.BOX1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo {
+    font-size: 40px;
+    text-align: center;
+}
+
+.BOX2 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.png {
+    width: 48%;
+    height: 48%;
+
+}
+
+.png_email {
+    width: 32.5%;
+    height: 32.5%;
+}
+
+.descricao {
+    margin-bottom: 100px;
+    color: whitesmoke;
+
+}
